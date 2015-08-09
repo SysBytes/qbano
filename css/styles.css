@@ -382,3 +382,35 @@ body {
 	margin: 0;
 }
 
+#codigo-error {
+	font-family: 'AvenirNextLTPro-Bold';
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #ffff00;
+	width: 420px;
+	padding: 40px 20px;
+}
+#codigo-error h1 {
+	color: #783886;
+	font-size: 40px;
+	margin: 10px 0 0;
+	text-shadow: 2px 2px #666;
+}
+#codigo-error h1 span {
+	color: #bf50d8;
+}
+#codigo-error h2 {
+	color: #783886;
+	font-size: 36px;
+	margin: 0;
+}
+#codigo-error h3 {
+	color: #783886;
+	font-size: 24px;
+	margin: 20px 0 0;
+}
+#codigo-error p {
+	color: #783886;
+	font-size: 18px;
+	margin: 0;
+}
