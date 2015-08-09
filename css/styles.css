@@ -1,0 +1,309 @@
+body {
+	background-color: #FFFFFF;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding:0;
+}
+
+#container {
+	background-color: #FFFFFF;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding:0;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+#header {
+	width: 100%;
+	max-width: 1366px;
+	height: 537px;
+	background: url('../img/bg-top.jpg') no-repeat center center;
+	margin: 0 auto;
+}
+.musiq {
+	position: relative;
+    left: 50%;
+    top: 55px;
+    margin-left: -430px;
+}
+.mecanica {
+	position: relative;
+	top: 65px;
+    left: 50%;
+    margin-left: -455px;
+}
+.auto {
+    position: relative;
+    top: -140px;
+    left: 50%;
+    margin-left: -470px;
+    margin-bottom: -190px;
+}
+#main {
+	top: 30px;
+	position: relative;
+	width: 1080px;
+	margin: 0 auto;
+	background: url('../img/bg-gotas.png') no-repeat center center;
+	min-height: 570px;
+}
+#main p.info {
+	font-family: 'AvenirNextLTPro-Heavy';
+	font-size: 18px;
+	color: #783886;
+	text-align: right;
+	padding-right: 100px;
+	z-index: 100;
+    position: relative;
+}
+.inicio {
+	float: left;
+	margin: 0 5px 0 50px;
+}
+.inicio .form-inicio {
+	background: url('../img/bg-form1.jpg') no-repeat center top;
+	width: 394px;
+	height: 384px;
+}
+.inicio .form-inicio p {
+	font-family: 'AvenirNextLTPro-Heavy';
+	font-size: 26px;
+	color: #FFFFFF;
+	text-align: center;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding-top: 25px;
+    padding-left: 15px;
+    margin: 0px;
+}
+.form-inicio img.banner {
+	width: 346px;
+	margin: 10px 30px;
+}
+.form-inicio p.instruccion {
+	font-family: 'AvenirNextLTPro-Bold';
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: left;
+    font-weight: normal;
+    padding: 0;
+    padding-left: 32px;
+    margin: 0px;
+    text-transform: none;
+    width: 340px;
+}
+.form-inicio .group {
+	padding: 7px 20px;
+}
+.form-inicio .first {
+	margin-top: 20px;
+}
+.form-inicio label {
+	font-family: 'AvenirNextLTPro-Bold';
+    font-size: 16px;
+    color: #FFFFFF;
+	text-transform: uppercase;
+	float: left;
+    width: 80px;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 30px;
+}
+.form-inicio .group div {
+	display: inline-block;
+    clear: right;
+}
+.form-inicio input {
+	font-size: 15px;
+	color: #60236d;
+	width: 260px;
+	height: 28px;
+	border: 0;
+	padding-left: 5px;
+}
+.form-inicio input#email {
+	text-transform: lowercase;
+}
+.form-inicio input#codigo {
+	text-transform: uppercase;
+}
+.inicio button.btn-inicio {
+	font-family: 'AvenirNextLTPro-Bold';
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #f5ec38;
+	text-align: center;
+	background-color: #60236d;
+	width: 100%;
+	height: 46px;
+	margin-top: 5px;
+	border: 0px;
+    line-height: 50px;
+    cursor: pointer;
+}
+.inicio button.btn-inicio:hover {
+	color: #60236d;
+	background-color: #f5ec38;
+}
+.inicio button.btn-inicio:visited,
+.inicio button.btn-inicio:focus,
+.inicio button.btn-inicio:active {
+	border: 0;
+	text-decoration: none;
+	outline: 0;
+}
+.registro {
+	float: left;
+	background: url('../img/bg-form2.png') no-repeat center center;
+	width: 556px;
+	height: 435px;
+	margin: 0 0 0 5px;
+}
+.registro p {
+	font-family: 'AvenirNextLTPro-Heavy';
+	font-size: 26px;
+	color: #FFFFFF;
+	text-align: left;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding-top: 25px;
+    padding-left: 30px;
+    margin: 0px;
+}
+.registro .group, .registro .group_2, .registro .group_3  {
+	padding: 7px 20px;
+}
+.registro .first {
+	margin-top: 20px;
+}
+.registro label, .registro select {
+	font-family: 'AvenirNextLTPro-Bold';
+    font-size: 12px;
+    color: #783886;
+	text-transform: uppercase;
+	float: left;
+    width: 80px;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 28px;
+}
+.registro label.small {
+	line-height: 14px;
+}
+.registro .group div, .registro .group_2 div, .registro .group_3 div {
+	display: inline-block;
+    clear: right;
+}
+.registro .group_2 div div, .registro .group_3 div div {
+	display: inline-block;
+	clear: left;
+}
+.registro input, .registro select  {
+	font-size: 12px;
+	color: #545454;
+	height: 24px;
+	border: 0;
+	padding-left: 5px;
+}
+.registro select {
+	color: #783886;
+	width: auto;
+	margin-right: 8px;
+	padding-right: 10px;
+}
+.registro input#nombre, .registro input#apellido, .registro input#direccion  {
+	width: 400px;
+} 
+.registro input#email, .registro input#telefono  {
+	width: 155px;
+} 
+.registro input#documento {
+	width: 180px;	
+}
+.registro select#tipo_documento {
+	width: 200px;
+	margin: 0 10px;
+}
+.registro input[type="checkbox"] {
+	font-size: 14px;
+	border: 1px solid #666;
+	width: 20px;
+	height: 20px;
+}
+.registro span.terminos {
+	color: #783886;
+	font-family: 'AvenirNextLTPro-Bold';
+    font-size: 12px;
+    position: relative;
+    top: -8px;
+}
+.registro button.btn-registrar {
+	font-family: 'AvenirNextLTPro-Bold';
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #f5ec38;
+    text-align: center;
+    background-color: #60236d;
+    width: 46%;
+    height: 40px;
+    border: 0px;
+    line-height: 42px;
+    cursor: pointer;
+    right: -40px;
+    position: relative;
+}
+.registro button.btn-registrar:hover {
+	color: #60236d;
+	background-color: #f5ec38;
+}
+.registro button.btn-registrar:visited,
+.registro button.btn-registrar:focus,
+.registro button.btn-registrar:active {
+	border: 0;
+	text-decoration: none;
+	outline: 0;
+}
+.registro p.datos {
+	font-family: 'HelveticaNeueLTStd-LtCn';
+	font-size: 10px;
+	text-align: center;
+	color: #7b7b7b;
+	padding: 0;
+	text-transform: none;
+	margin-top: -18px;
+}
+.registro p.datos a {
+	color:#1e8aae;
+}
+
+.sombra {
+	background: url("../img/sombra.png") no-repeat top center;
+	width: 1212px;
+	height: 21px;
+	margin: -30px auto 0;
+}
+
+#footer {
+	width: 990px;
+	margin: 0 auto;
+}
+.qbano, .cokacola, .legal, .coljuegos {
+	clear: both;
+    display: inline-block;
+    padding: 0 15px;
+}
+.legal {
+	font-family: 'AvenirNextLTPro-Bold';
+	font-size: 11px;
+	text-align: center;
+	color: #7b7b7b;
+	line-height: 20px;
+    padding: 25px 40px;
+    vertical-align: top;
+}
+.legal a {
+	color: #7b7b7b;
+}

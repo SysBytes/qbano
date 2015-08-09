@@ -1,0 +1,40 @@
+
+@font-face {
+	font-family: 'HelveticaNeueLTStd-Cn';
+    src: url('fonts/HelveticaNeueLTStd-Cn_C.eot?#iefix') format('embedded-opentype'), 
+         url('fonts/HelveticaNeueLTStd-Cn_C.woff') format('woff'),
+         url('fonts/HelveticaNeueLTStd-Cn_C.ttf') format('truetype'),
+         url('fonts/HelveticaNeueLTStd-Cn_C.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'HelveticaNeueLTStd-LtCn';
+    src: url('fonts/HelveticaNeueLTStd-LTCN_A.eot?#iefix') format('embedded-opentype'), 
+         url('fonts/HelveticaNeueLTStd-LTCN_A.woff') format('woff'),
+         url('fonts/HelveticaNeueLTStd-LTCN_A.ttf') format('truetype'),
+         url('fonts/HelveticaNeueLTStd-LTCN_A.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'AvenirNextLTPro-Bold';
+    src: url('fonts/AvenirNextLTPro-Bold_3.eot?#iefix') format('embedded-opentype'), 
+         url('fonts/AvenirNextLTPro-Bold_3.woff') format('woff'),
+         url('fonts/AvenirNextLTPro-Bold_3.ttf') format('truetype'),
+         url('fonts/AvenirNextLTPro-Bold_3.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'AvenirNextLTPro-Heavy';
+    src: url('fonts/AvenirNextLTPro-Heavy_0.eot?#iefix') format('embedded-opentype'), 
+         url('fonts/AvenirNextLTPro-Heavy_0.woff') format('woff'),
+         url('fonts/AvenirNextLTPro-Heavy_0.ttf') format('truetype'),
+         url('fonts/AvenirNextLTPro-Heavy_0.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
