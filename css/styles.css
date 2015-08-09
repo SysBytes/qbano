@@ -286,6 +286,7 @@ body {
 	margin: -30px auto 0;
 }
 
+
 #footer {
 	width: 990px;
 	margin: 0 auto;
@@ -307,3 +308,77 @@ body {
 .legal a {
 	color: #7b7b7b;
 }
+
+/* POP UPS */
+.fancybox-skin {
+	background: transparent !important;
+	box-shadow: none !important;
+}
+
+#registro-exitoso {
+	font-family: 'AvenirNextLTPro-Bold';
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #e5a43b;
+	width: 420px;
+	padding: 40px 20px;
+}
+#registro-exitoso h1 {
+	color: #783886;
+	font-size: 40px;
+	margin: 0;
+	text-shadow: 2px 2px #666;
+}
+#registro-exitoso h1 span {
+	color: #fff600;
+}
+#registro-exitoso h2 {
+	color: #783886;
+	font-size: 36px;
+	margin: 0;
+}
+#registro-exitoso h3 {
+	color: #fff600;
+	font-size: 24px;
+	margin: 0 0 20px;
+	text-shadow: 2px 2px #666;
+}
+#registro-exitoso p {
+	color: #783886;
+	font-size: 18px;
+	margin: 0;
+}
+
+#codigo-inscrito {
+	font-family: 'AvenirNextLTPro-Bold';
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #ffff00;
+	width: 420px;
+	padding: 40px 20px;
+}
+#codigo-inscrito h1 {
+	color: #783886;
+	font-size: 40px;
+	margin: 10px 0 0;
+	text-shadow: 2px 2px #666;
+}
+#codigo-inscrito h1 span {
+	color: #bf50d8;
+}
+#codigo-inscrito h2 {
+	color: #783886;
+	font-size: 36px;
+	margin: 0;
+}
+#codigo-inscrito h3 {
+	color: #783886;
+	font-size: 24px;
+	margin: 20px 0 0;
+}
+#codigo-inscrito p {
+	color: #783886;
+	font-size: 18px;
+	margin: 0;
+}
+

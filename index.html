@@ -47,7 +47,7 @@
 					</div>
 					
 				</div>
-				<button class="btn-inicio" name="submit">Ingresar</button>
+				<button href="#codigo-inscrito" class="btn-inicio fancybox" name="submit">Ingresar</button>
 				</form>
 			</div>
 			<div class="registro">
@@ -188,7 +188,7 @@
 					<div class="group_2 terminos">
 						<input type="checkbox" name="termino" id="termino">
 						<span class="terminos">Acepto términos y condiciones<span>
-						<button class="btn-registrar" name="submit">Registrarme</button> 	
+						<button href="#registro-exitoso" class="btn-registrar fancybox" name="submit">Registrarme</button> 	
 					</div>
 				</form>
 				<p class="datos">
@@ -204,12 +204,37 @@
 			<div class="coljuegos"><img src="img/logo-coljuegos.jpg"></div>
 		</div>
 	</div>
-	
+
+	<div id="registro-exitoso" style="display:none;">
+		<h2>¡Felicidades!</h2>
+		<h3>Ya estás inscrito</h3>
+		<p>AGRANDA TU COMBO, RECIBE UN
+		RASPA Y GANA Y COMIENZA A ACUMULAR TUS CÓDIGOS PARA PARTICIPAR POR</p>
+		<h1>1 FIAT <span>500</span></h1>
+	</div>
+
+	<div id="codigo-inscrito" style="display:none;">
+		<h2>¡Felicidades!</h2>
+		<h3>ESTE CÓDIGO HA SIDO INSCRITO SATISFACTORIAMENTE.</h3>
+		<p>SIGUE INSCRIBIENDO TUS CÓDIGOS HASTA OCTUBRE 1 PARA PARTICIPAR POR</p>
+		<h1>1 FIAT <span>500</span></h1>
+	</div>
+
+	<div id="codigo-error" style="display:none;">
+		<h2>¡Lo Sentimos!</h2>
+		<h3>ESTE CÓDIGO NO COINCIDE CON NUESTRA BASE DE DATOS.</h3>
+		<p>VERIFICA EL NÚMERO E INTÉNTALO DE NUEVO PARA PARTICIPAR POR</p>
+		<h1>1 FIAT <span>500</span></h1>
+	</div>
 </body>
 <script type="text/javascript">
 $(document).ready(function() {
 
-	$('.fancybox').fancybox();
+	$('.fancybox').fancybox({
+		padding: 0
+	});
+
+
 
 });
 </script>
