@@ -453,7 +453,7 @@ body {
 .info-codigos {
 	font-family: 'AvenirNextLTPro-Bold';
 	float: left;
-	width: 556px;
+	width: 450px;
 	height: 435px;
 	margin: 0 0 0 5px;
 }
@@ -461,7 +461,8 @@ body {
 	color: #e5a43b;
 	font-size: 24px;
 	margin: 105px 0 0;
-	text-shadow: 1px 1px #999;	
+	text-shadow: 1px 1px #999;
+	border-bottom: 1px solid #e5a43b;
 }
 .info-codigos p {
 	color: #740aab;
@@ -474,8 +475,6 @@ body {
 	width: 250px;
     height: 154px;
     margin: 0 auto;
-    left: -60px;
-    position: relative;
 }
 .info-codigos .musiq2 img {
 	width: 100%;
