@@ -47,7 +47,7 @@ body {
 	position: relative;
 	width: 1080px;
 	margin: 0 auto;
-	background: url('../img/bg-gotas.png') no-repeat center center;
+	background: url('../img/bg-gotas.png') no-repeat top center;
 	min-height: 570px;
 }
 #main p.info {
@@ -413,4 +413,70 @@ body {
 	color: #783886;
 	font-size: 18px;
 	margin: 0;
+}
+
+/* VENTANA CODIGOS */
+.codigos {
+	font-family: 'AvenirNextLTPro-Bold';
+	float: left;
+	margin: 0 5px 0 100px;
+}
+.codigos h1 {
+	color: #783886;
+	font-size: 36px;
+	margin: -10px 0 0;
+	text-transform: uppercase;
+}
+.codigos h3 {
+	color: #783886;
+	font-size: 18px;
+	margin: 0;
+	text-transform: uppercase;
+}
+.tabla {
+	margin-top: 20px;
+	overflow: auto;
+    max-height: 299px;
+
+}
+.tabla th {
+	font-size: 18px;
+	text-align: left;
+	color: #c7c7c7;
+}
+.tabla td {
+	font-size: 16px;
+	text-align: left;
+	color: #740aab;
+	background-color: #c7c7c7;
+}
+.info-codigos {
+	font-family: 'AvenirNextLTPro-Bold';
+	float: left;
+	width: 556px;
+	height: 435px;
+	margin: 0 0 0 5px;
+}
+.info-codigos h1 {
+	color: #e5a43b;
+	font-size: 24px;
+	margin: 105px 0 0;
+	text-shadow: 1px 1px #999;	
+}
+.info-codigos p {
+	color: #740aab;
+	font-size: 16px;
+}
+.info-codigos p span {
+	font-size: 20px;
+}
+.info-codigos .musiq2 {
+	width: 250px;
+    height: 154px;
+    margin: 0 auto;
+    left: -60px;
+    position: relative;
+}
+.info-codigos .musiq2 img {
+	width: 100%;
 }
