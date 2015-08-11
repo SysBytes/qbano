@@ -47,7 +47,7 @@
 					</div>
 					
 				</div>
-				<button href="#codigo-inscrito" class="btn-inicio fancybox" name="submit">Ingresar</button>
+				<button href="#usuario-error" class="btn-inicio fancybox" name="submit">Ingresar</button>
 				</form>
 			</div>
 			<div class="registro">
@@ -188,7 +188,7 @@
 					<div class="group_2 terminos">
 						<input type="checkbox" name="termino" id="termino">
 						<span class="terminos">Acepto términos y condiciones<span>
-						<button href="#registro-exitoso" class="btn-registrar fancybox" name="submit">Registrarme</button> 	
+						<button href="#usuario-registrado" class="btn-registrar fancybox" name="submit">Registrarme</button> 	
 					</div>
 				</form>
 				<p class="datos">
@@ -225,6 +225,17 @@
 		<h3>ESTE CÓDIGO NO COINCIDE CON NUESTRA BASE DE DATOS.</h3>
 		<p>VERIFICA EL NÚMERO E INTÉNTALO DE NUEVO PARA PARTICIPAR POR</p>
 		<h1>1 FIAT <span>500</span></h1>
+	</div>
+
+	<div id="usuario-error" style="display:none;">
+		<h2>¡Lo Sentimos!</h2><br>
+		<h3>E-MAIL Ó CÉDULA INCORRECTOS.</h3>
+		<p>INTÉNTALO DE NUEVO</p>
+	</div>
+
+	<div id="usuario-registrado" style="display:none;">
+		<h2>¡Lo Sentimos!</h2><br>
+		<p>Este usuario ya se encuentra registrado</p>
 	</div>
 </body>
 <script type="text/javascript">
