@@ -425,7 +425,8 @@ body {
 .codigos {
 	font-family: 'AvenirNextLTPro-Bold';
 	float: left;
-	margin: 0 5px 0 100px;
+	margin: 0 5px 0 0px;
+	width: 50%;
 }
 .codigos h1 {
 	color: #783886;
@@ -459,7 +460,7 @@ body {
 .info-codigos {
 	font-family: 'AvenirNextLTPro-Bold';
 	float: left;
-	width: 450px;
+	width: auto;
 	height: 435px;
 	margin: 0 0 0 5px;
 }
