@@ -630,6 +630,56 @@ body {
 	    display: inherit;
 	    text-align: center;
 	}
+
+
+	/* POP UPs */
+	#registro-exitoso, #usuario-registrado,
+	#codigo-inscrito, #usuario-error, #codigo-error {
+		width: 100%;
+		padding: 10px 10px;
+	}
+	#registro-exitoso h1,
+	#codigo-inscrito h1, #usuario-error h1,
+	#codigo-error h1 {
+		font-size: 30px;
+	}
+	#registro-exitoso h2, #usuario-registrado h2,
+	#codigo-inscrito h2, #usuario-error h2,
+	#codigo-error h2 {
+		font-size: 26px;
+	}
+	#registro-exitoso h3 {
+		font-size: 16px;
+		margin: 0 0 10px;
+	}
+	#registro-exitoso p, #usuario-registrado p,
+	#codigo-inscrito p, #usuario-error p,
+	#codigo-error p {
+		font-size: 12px;
+	}
+	#codigo-inscrito h3, #usuario-error h3,
+	#codigo-error h3 {
+		font-size: 16px;
+		margin: 10px 0 0;
+	}
+	
+	/* CODIGOS */
+	.codigos {
+		margin: 0;
+	}
+
+	.info-codigos {
+	    width: 100%;
+	    height: auto;
+	    margin: 0;
+	}
+
+	.cerrar {
+		width: 50%;
+		float: right;
+		padding-bottom: 20px;
+	}
+
 }
 
 @media only screen and (max-width: 320px) {
