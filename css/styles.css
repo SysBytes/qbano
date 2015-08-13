@@ -59,6 +59,12 @@ body {
 	z-index: 100;
     position: relative;
 }
+#main2 {
+	top: 30px;
+	position: relative;
+	width: 1080px;
+	margin: 0 auto;
+}
 .inicio {
 	float: left;
 	margin: 0 5px 0 50px;
@@ -478,4 +484,214 @@ body {
 }
 .info-codigos .musiq2 img {
 	width: 100%;
+}
+
+@media only screen and (max-width: 768px) { 
+	img { width: 100%;}
+	#header {
+		width: 100%;
+		/*max-width: 1366px;*/
+		height: 470px;
+		background: url('../img/bg.jpg') no-repeat left center;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.musiq {
+		position: relative;
+	    top: 55px;
+	    left: auto;
+	    margin: 0 auto;
+	    width: 90%;
+	    max-width: 400px;
+	}
+	.mecanica {
+		position: relative;
+		top: 65px;
+	    left: auto;
+	    margin-left: auto;
+	    width: 94%;
+	    margin: 0 auto;
+	    max-width: 400px;
+	}
+	.auto {
+	    position: relative;
+	    top: auto;
+	    left: auto;
+	    margin-left: 0;
+	    margin-bottom: -190px;
+	    width: 100%;
+	    text-align: center;
+	    margin: -125px auto 0;
+	    max-width: 400px;
+	}
+	#main {
+		width: 100%;
+	}
+
+	.inicio {
+		margin: 0 auto;
+		float: none;
+		margin: 0 auto;
+	}
+
+	.inicio .form-inicio {
+		margin: 0 auto;
+
+	}
+
+	.registro {
+		background: url('../img/bg-form2.png') no-repeat left top;
+		background-color: #c7c7c7;
+		width: 100%;
+		margin: 0 auto;
+		height: auto;
+		z-index: 1;
+    	position: relative;
+	}
+
+	.registro .group, .registro .group_2, .registro .group_3 {
+ 	   padding: 7px 10px;	
+	}
+
+	.registro label {
+		width: 28%;
+	}
+
+	.registro .group div {
+		width: 68%;
+	}
+
+	.registro input#nombre, .registro input#apellido, .registro input#direccion {
+    	width: 100%;
+	}
+
+	.registro select#tipo_documento {
+    	width: 70%;
+    	margin: 0 0 10px 30%;
+	}
+
+	.registro .group_3 div div {
+	    width: 100%;
+	}
+
+	.registro input#documento {
+ 	   width: 68%;
+	}
+
+	.registro .group_3 label {
+		width: 100%;
+		text-align: left;
+	}
+	.registro .group_3 div {
+	    width: 100%;
+	}
+	.registro select#dia { width: 22%;}
+	.registro select#mes { width: 40%;}
+	.registro select#anno { width: 30%;}
+	
+	.registro .group_2 div {
+	    display: block;
+	    clear: right;
+	}
+	
+	.registro .group_2 div div {
+	    display: block;
+	}
+
+	.registro input#celular, .registro input#ciudad {
+		margin-bottom: 10px;
+	}
+
+	.registro input#email, .registro input#telefono, .registro input#celular, .registro input#ciudad {
+    	width: 68%;
+	}
+
+	.sombra {
+	    top: 100%;
+	    position: relative;
+	    margin-top: 100px;
+	    width: 100%;
+	    margin: 0;
+	   	z-index: -10;
+	}
+
+	#footer {
+		position: relative;
+		bottom: -100px;
+		width: 100%;
+		text-align: center;
+	}
+	.legal {
+	    position: absolute;
+	    width: 100%;
+	    margin: -130px auto 0;
+	    padding: 0;
+	    clear: none;
+	    display: inherit;
+	    text-align: center;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	#header {
+		height: 430px;
+	}
+
+	#main p.info {
+	    font-size: 11px;
+	    text-align: center;
+	    padding-right: 0px;
+	}
+
+	.inicio .form-inicio {
+		width: 320px;
+		background: url('../img/bg-form1.jpg') no-repeat left top;
+	}
+
+	.inicio .form-inicio p {
+		font-size: 20px;
+	}
+	.form-inicio img.banner {
+		width: auto;
+    	margin: 15px auto;
+	}
+	.form-inicio p.instruccion {
+		padding-left: 10px;
+    	width: 90%;
+    	font-size: 16px;
+	}
+	.form-inicio label {
+	    width: 70px;
+	}
+
+	.form-inicio input {
+		width: 200px;
+	}
+
+	.registro p {
+		font-size: 17px;
+		padding-top: 32px;
+		padding-left: 28px;
+	}
+
+	.registro span.terminos {
+	    color: #783886;
+	    font-family: 'AvenirNextLTPro-Bold';
+	    font-size: 10px;
+		margin-left: -5px;
+		top: -6px;
+	}
+	.registro button.btn-registrar {
+	    width: 38%;
+	    float: right;
+	    right: 5;
+	    font-size: 14px;
+	    height: 38px;
+    	line-height: 40px;
+	}
+
+	.registro p.datos {
+	    margin-top: -6px;
+	}
+
 }
