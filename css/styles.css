@@ -673,11 +673,14 @@ body {
 	    height: auto;
 	    margin: 0;
 	}
-
 	.cerrar {
 		width: 50%;
 		float: right;
 		padding-bottom: 20px;
+	}
+
+	.tabla table {
+		width: 100%;
 	}
 
 }
